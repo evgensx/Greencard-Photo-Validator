@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "visavalidator"
+version = "0.1.0"
+description = ""
+authors = ["Evgenii <jenek46@ya.ru>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "~3.10"
+pillow = "~9.4.0"
+pyqt6 = "~6.4.2"
+opencv-contrib-python = "^4.7.0.72"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
